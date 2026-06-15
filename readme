@@ -1,0 +1,22 @@
+# Impact Florida RAG Pipeline
+
+A retrieval-augmented generation (RAG) pipeline for program documents stored in Google Drive.
+
+---
+
+## Setup Log
+
+### 1. Create GCP Project
+
+Created project `isea-hack-week-2026` in Google Cloud Console.
+
+### 2. Enable Google Drive API
+
+**APIs & Services → Library** → searched "Google Drive API" → Enabled.
+
+### 3. Create Credentials
+
+**APIs & Services → Credentials → Create Credentials → Service account**:
+- Named the service account `isea-hack-week-2026`
+- Downloaded the key file (stored locally, not committed to the repo)
+- Shared the Shared Drive with the service account email (Viewer access)

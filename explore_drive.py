@@ -1,4 +1,4 @@
-﻿"""
+"""
 Explore a Google Shared Drive via service account credentials.
 
 Outputs:
@@ -22,6 +22,7 @@ from googleapiclient.discovery import build
 load_dotenv()
 
 SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
+OUTPUT_FILE = Path(__file__).parent / "drive_structure.txt"
 
 MIME_LABELS = {
     "application/vnd.google-apps.folder": "Google Folder",
@@ -45,6 +46,12 @@ MIME_LABELS = {
     "audio/mpeg": "MP3 Audio",
     "application/zip": "ZIP Archive",
 }
+
+
+def tee(f, *args, **kwargs):
+    """Print to console and write to file simultaneously."""
+    print(*args, **kwargs)
+    print(*args, file=f, **kwargs)
 
 
 def find_key_file() -> str:
@@ -108,7 +115,7 @@ def count_files_under(node_id: str, id_to_item: dict, children: dict) -> int:
     return total
 
 
-def print_tree(node_id, id_to_item, children, label=None, indent=0, folder_counts=None):
+def print_tree(node_id, id_to_item, children, out, label=None, indent=0, folder_counts=None):
     if label is None:
         item = id_to_item.get(node_id, {})
         label = item.get("name", node_id)
@@ -124,7 +131,7 @@ def print_tree(node_id, id_to_item, children, label=None, indent=0, folder_count
     line = f"{prefix}[D] {label}  ({file_count} file{'s' if file_count != 1 else ''})"
     if subfolder_count:
         line += f", {subfolder_count} subfolder{'s' if subfolder_count != 1 else ''}"
-    print(line)
+    out(line)
 
     if folder_counts is not None and indent > 0:
         folder_counts.append((label, file_count))
@@ -136,7 +143,7 @@ def print_tree(node_id, id_to_item, children, label=None, indent=0, folder_count
     for child_id in sorted_children:
         child = id_to_item.get(child_id)
         if child and child["mimeType"] == "application/vnd.google-apps.folder":
-            print_tree(child_id, id_to_item, children, indent=indent + 1, folder_counts=folder_counts)
+            print_tree(child_id, id_to_item, children, out, indent=indent + 1, folder_counts=folder_counts)
 
 
 def main():
@@ -147,7 +154,7 @@ def main():
     print("Authenticating with Google Drive API...")
     service = build_drive_service()
 
-    print("Fetching all files (this may take a moment)...\n")
+    print("Fetching all files (this may take a moment)...")
     items = list_all_files(service, drive_id)
 
     folders = [i for i in items if i["mimeType"] == "application/vnd.google-apps.folder"]
@@ -155,40 +162,45 @@ def main():
 
     id_to_item, children = build_tree(items, drive_id)
 
-    # Folder tree
-    print("=" * 60)
-    print("FOLDER STRUCTURE")
-    print("=" * 60)
-    folder_counts: list[tuple[str, int]] = []
-    print_tree(drive_id, id_to_item, children, label="Shared Drive (root)", folder_counts=folder_counts)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        out = lambda *args, **kwargs: tee(f, *args, **kwargs)
 
-    # Folders ranked by file count
-    print("\n" + "=" * 60)
-    print("FOLDERS BY FILE COUNT")
-    print("=" * 60)
-    for name, count in sorted(folder_counts, key=lambda x: -x[1]):
-        print(f"  {name:<45} {count:>5} file{'s' if count != 1 else ''}")
+        # Folder tree
+        out("=" * 60)
+        out("FOLDER STRUCTURE")
+        out("=" * 60)
+        folder_counts: list[tuple[str, int]] = []
+        print_tree(drive_id, id_to_item, children, out, label="Shared Drive (root)", folder_counts=folder_counts)
 
-    # File type breakdown
-    type_counts: dict[str, int] = defaultdict(int)
-    for f in files:
-        type_counts[f["mimeType"]] += 1
+        # Folders ranked by file count
+        out("\n" + "=" * 60)
+        out("FOLDERS BY FILE COUNT")
+        out("=" * 60)
+        for name, count in sorted(folder_counts, key=lambda x: -x[1]):
+            out(f"  {name:<45} {count:>5} file{'s' if count != 1 else ''}")
 
-    print("\n" + "=" * 60)
-    print("FILE TYPES")
-    print("=" * 60)
-    for mime, count in sorted(type_counts.items(), key=lambda x: -x[1]):
-        label = MIME_LABELS.get(mime, mime)
-        print(f"  {label:<45} {count:>5}")
+        # File type breakdown
+        type_counts: dict[str, int] = defaultdict(int)
+        for file in files:
+            type_counts[file["mimeType"]] += 1
 
-    # Totals
-    print("\n" + "=" * 60)
-    print("TOTALS")
-    print("=" * 60)
-    print(f"  Total files:    {len(files):>5}")
-    print(f"  Total folders:  {len(folders):>5}")
-    print(f"  Distinct types: {len(type_counts):>5}")
-    print("=" * 60)
+        out("\n" + "=" * 60)
+        out("FILE TYPES")
+        out("=" * 60)
+        for mime, count in sorted(type_counts.items(), key=lambda x: -x[1]):
+            label = MIME_LABELS.get(mime, mime)
+            out(f"  {label:<45} {count:>5}")
+
+        # Totals
+        out("\n" + "=" * 60)
+        out("TOTALS")
+        out("=" * 60)
+        out(f"  Total files:    {len(files):>5}")
+        out(f"  Total folders:  {len(folders):>5}")
+        out(f"  Distinct types: {len(type_counts):>5}")
+        out("=" * 60)
+
+    print(f"\nReport written to {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,198 @@
+============================================================
+FOLDER STRUCTURE
+============================================================
+[D] Shared Drive (root)  (327 files), 2 subfolders
+  [D] Background  (3 files)
+  [D] Data Sources  (324 files), 8 subfolders
+    [D] !_Multiple Programs  (16 files), 2 subfolders
+      [D] Gates GCITs and Mid-Year Reflections  (4 files)
+      [D] Grants  (10 files)
+    [D] 0_SWS  (97 files), 8 subfolders
+      [D] !_Programming  (3 files)
+      [D] 0_Applications, Intake Forms, Pre-surveys  (20 files), 4 subfolders
+        [D] 2022-23  (1 file)
+        [D] 2023-24  (2 files)
+        [D] 2024-25  (3 files)
+        [D] 2025-26  (7 files)
+      [D] 1_PERTS Elevate  (15 files)
+      [D] 1_Survey Reflections  (13 files), 1 subfolder
+        [D] 2022-23  (0 files)
+      [D] 2_EOY Surveys  (6 files)
+      [D] 3_Evaluation Reports, Data Slides  (10 files)
+      [D] 4_What Counts Podcast Reflections from Teachers  (27 files), 2 subfolders
+        [D] CC1  (12 files)
+        [D] CC2  (15 files)
+      [D] 5_District Leader Focus Group  (1 file)
+    [D] 1_Focus K-3  (87 files), 7 subfolders
+      [D] !_Programming  (9 files)
+      [D] 0_District Intake Surveys  (4 files)
+      [D] 1_Convening Data_June 2025-February 2026  (12 files), 4 subfolders
+        [D] 10_Convening 4_February 2026  (0 files)
+        [D] 6_Convening 2 Data_October 2025  (0 files)
+        [D] 8_Convening 3 Data_December 2025  (0 files)
+        [D] Convening Decks  (0 files)
+      [D] 2_Site Visit Data_August 2025-March 2026  (14 files), 3 subfolders
+        [D] 11_Site Visit 5 Data_Feb-March 2026  (1 file)
+        [D] 7_Site Visit 3 Data_November 2025  (1 file)
+        [D] 9_Site Visit 4 Data_January 2026  (0 files)
+      [D] 3_Fall 2025 District Data  (28 files), 4 subfolders
+        [D] 2024-25 District Strengths Assessments  (9 files)
+        [D] District Fall 2025 Data Reports  (4 files)
+        [D] Focus Group & Interview Findings  (3 files)
+        [D] Network & Teacher Surveys  (4 files)
+      [D] 3_Hillsborough Kickoff Site Visit_Sept 2025  (0 files)
+      [D] 4_Spring 2026 District Data  (18 files), 4 subfolders
+        [D] District Implementation Stories  (4 files)
+        [D] District Spring 2026 Data Reports  (4 files)
+        [D] Focus Group Findings  (2 files)
+        [D] Network & Teacher Surveys  (6 files)
+    [D] 2_Math Materials  (35 files), 7 subfolders
+      [D] !_Programming  (12 files)
+      [D] 0_MMC Progress Summaries  (3 files)
+      [D] 1_MMC Virtual Call Series District Summaries  (4 files)
+      [D] 2_MMC Learning Walk Site Visit Summaries  (5 files)
+      [D] 3_MMC Listening Session Summaries  (2 files)
+      [D] 4_MMC Event Survey Data  (6 files)
+      [D] 5_MMC Network Surveys  (3 files)
+    [D] 3_Teacher Workforce  (66 files), 15 subfolders
+      [D] !_Programming  (20 files), 3 subfolders
+        [D] Convenings  (6 files)
+        [D] Overview  (5 files)
+        [D] Site Visits  (7 files)
+      [D] 0_FLDOE Data  (6 files)
+      [D] 1_District TW Baseline Data  (9 files)
+      [D] 2_District Educator Listening Session Data  (7 files), 2 subfolders
+        [D] 2024 Listening Sessions  (4 files)
+        [D] 2025 Listening Sessions  (3 files)
+      [D] 3_District Artifacts  (7 files)
+      [D] 4_Convening Feedback Surveys  (5 files)
+      [D] 5_Site Visit Notes  (4 files)
+      [D] 6_Survey Data and Decks  (5 files)
+      [D] Lake  (0 files)
+      [D] Lee  (0 files)
+      [D] Network Survey  (0 files)
+      [D] Osceola  (0 files)
+      [D] Pasco  (0 files)
+      [D] Polk  (1 file)
+      [D] St. Lucie  (0 files)
+    [D] 4_EIR/Game Based Learning  (7 files), 3 subfolders
+      [D] 1_Annual Performance Reports to Ed  (2 files)
+      [D] 2_WestEd Reports and Analyses  (3 files)
+      [D] 3_Evaluation Plan  (1 file)
+    [D] 5_SPARK  (8 files), 2 subfolders
+      [D] !_SPARK Concept and District Overview  (2 files)
+      [D] 0_SPARK Planning Documents  (5 files)
+    [D] 6_NAT HQIM/Policy & Advocacy  (8 files), 3 subfolders
+      [D] 0_NAT HQIM Planning Documents  (2 files)
+      [D] 1_Policy Impact  (2 files)
+      [D] 2_Policy Notes  (4 files)
+
+============================================================
+FOLDERS BY FILE COUNT
+============================================================
+  Data Sources                                    324 files
+  0_SWS                                            97 files
+  1_Focus K-3                                      87 files
+  3_Teacher Workforce                              66 files
+  2_Math Materials                                 35 files
+  3_Fall 2025 District Data                        28 files
+  4_What Counts Podcast Reflections from Teachers    27 files
+  0_Applications, Intake Forms, Pre-surveys        20 files
+  !_Programming                                    20 files
+  4_Spring 2026 District Data                      18 files
+  !_Multiple Programs                              16 files
+  1_PERTS Elevate                                  15 files
+  CC2                                              15 files
+  2_Site Visit Data_August 2025-March 2026         14 files
+  1_Survey Reflections                             13 files
+  CC1                                              12 files
+  1_Convening Data_June 2025-February 2026         12 files
+  !_Programming                                    12 files
+  Grants                                           10 files
+  3_Evaluation Reports, Data Slides                10 files
+  !_Programming                                     9 files
+  2024-25 District Strengths Assessments            9 files
+  1_District TW Baseline Data                       9 files
+  5_SPARK                                           8 files
+  6_NAT HQIM/Policy & Advocacy                      8 files
+  2025-26                                           7 files
+  Site Visits                                       7 files
+  2_District Educator Listening Session Data        7 files
+  3_District Artifacts                              7 files
+  4_EIR/Game Based Learning                         7 files
+  2_EOY Surveys                                     6 files
+  Network & Teacher Surveys                         6 files
+  4_MMC Event Survey Data                           6 files
+  Convenings                                        6 files
+  0_FLDOE Data                                      6 files
+  2_MMC Learning Walk Site Visit Summaries          5 files
+  Overview                                          5 files
+  4_Convening Feedback Surveys                      5 files
+  6_Survey Data and Decks                           5 files
+  0_SPARK Planning Documents                        5 files
+  Gates GCITs and Mid-Year Reflections              4 files
+  0_District Intake Surveys                         4 files
+  District Fall 2025 Data Reports                   4 files
+  Network & Teacher Surveys                         4 files
+  District Implementation Stories                   4 files
+  District Spring 2026 Data Reports                 4 files
+  1_MMC Virtual Call Series District Summaries      4 files
+  2024 Listening Sessions                           4 files
+  5_Site Visit Notes                                4 files
+  2_Policy Notes                                    4 files
+  Background                                        3 files
+  !_Programming                                     3 files
+  2024-25                                           3 files
+  Focus Group & Interview Findings                  3 files
+  0_MMC Progress Summaries                          3 files
+  5_MMC Network Surveys                             3 files
+  2025 Listening Sessions                           3 files
+  2_WestEd Reports and Analyses                     3 files
+  2023-24                                           2 files
+  Focus Group Findings                              2 files
+  3_MMC Listening Session Summaries                 2 files
+  1_Annual Performance Reports to Ed                2 files
+  !_SPARK Concept and District Overview             2 files
+  0_NAT HQIM Planning Documents                     2 files
+  1_Policy Impact                                   2 files
+  2022-23                                           1 file
+  5_District Leader Focus Group                     1 file
+  11_Site Visit 5 Data_Feb-March 2026               1 file
+  7_Site Visit 3 Data_November 2025                 1 file
+  Polk                                              1 file
+  3_Evaluation Plan                                 1 file
+  2022-23                                           0 files
+  10_Convening 4_February 2026                      0 files
+  6_Convening 2 Data_October 2025                   0 files
+  8_Convening 3 Data_December 2025                  0 files
+  Convening Decks                                   0 files
+  9_Site Visit 4 Data_January 2026                  0 files
+  3_Hillsborough Kickoff Site Visit_Sept 2025       0 files
+  Lake                                              0 files
+  Lee                                               0 files
+  Network Survey                                    0 files
+  Osceola                                           0 files
+  Pasco                                             0 files
+  St. Lucie                                         0 files
+
+============================================================
+FILE TYPES
+============================================================
+  PDF                                             143
+  Excel (.xlsx)                                    91
+  Word (.docx)                                     58
+  CSV                                              10
+  Google Doc                                        7
+  PowerPoint (.pptx)                                6
+  Google Sheet                                      6
+  ZIP Archive                                       3
+  Google Slides                                     2
+  application/vnd.ms-excel.sheet.macroenabled.12     1
+
+============================================================
+TOTALS
+============================================================
+  Total files:      327
+  Total folders:     84
+  Distinct types:    10
+============================================================

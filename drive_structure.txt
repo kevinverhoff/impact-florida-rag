@@ -196,3 +196,451 @@ TOTALS
   Total folders:     84
   Distinct types:    10
 ============================================================
+
+
+============================================================
+IMPACT FLORIDA PROGRAM GUIDE
+Source: Impact Florida_2026 ISEA Hackweek Guide
+============================================================
+
+﻿ISEA 2026 Summer Hackweek
+Impact Florida Hackweek Team Guide
+About Impact Florida 
+Impact Florida is a nonprofit organization that partners with school districts across the state to
+improve teaching and learning through high-quality instructional materials, professional
+learning, and system-level supports. We work across multiple initiatives and districts
+simultaneously, supporting implementation and continuous improvement through ongoing
+engagement such as district convenings, site visits, and coaching. Since 2019, we’ve worked across 70% of Florida school districts which serve 93% of the state’s student population.
+What we do 
+Impact Florida’s Theory of Action is designed to cultivate the conditions that support great teaching. Specifically, Impact Florida works to advance educator practice, connect education stakeholders, and influence systems to create the conditions for great teaching in every Florida classroom:
+  
+
+1. Advance Educator Practice: We build the capacity of teachers, school leaders, and systems leaders to work as a coherent team delivering excellent, engaging learning experiences for every student. Through time-bound, district cohorts organized around a shared problem of practice—called “cadres”—educators learn from one another, test new strategies, and bring lasting improvements into classrooms.  
+2. Serve as a Strategic Connector: We forge strategic connections among educators, policymakers, and partners to exchange ideas, share best practices, and foster networks that support continuous learning.
+3. Influence Systems: We shift mindsets, policies, and resource flows at the district and state levels—using evidence from real Florida classrooms—to create the conditions for great teaching to thrive and scale.
+Currently active programs and initiatives are listed in Table 1 below. Check out our website for more information about our work, programs, and impact across Florida. 
+
+
+Table 1. Active programs and initiatives 
+Program/Initiative 
+	Description
+	  
+Solving with Students Cadre
+	Launched in 2021, Solving with Students is Impact Florida’s first teacher-only learning cadre. It empowers secondary math teachers to gather and act on student feedback through cycles of reflection, strategy testing, and continuous improvement. Teachers use an anonymous survey tool (PERTS) to capture student perspectives, analyze results, discuss them with students, and adjust instruction accordingly, all while receiving coaching and support from coaches and peers.
+	  
+Teacher Workforce Cadre
+	Launched in 2023, the Teacher Workforce Cadre helps districts address teacher shortages by strengthening both recruitment and retention systems. Participants analyze data, identify root causes of attrition, and pilot new ideas—ranging from improved induction supports to districtwide retention strategies—that can scale across Florida.
+	  
+ Focus K-3 Math Cadre
+	Launched in 2025 as the next iteration of our K–9 Focus cadre, the K–3 Focus Cadre supports districts to plan, prototype, and scale improvements in early math instruction. Teams receive customized coaching, take part in role-alike collaboration, conduct site visits and classroom observations, and use real-time data to guide decisions.
+	  
+
+Math Materials Cadre
+	Launched in 2025, the Math Materials Cadre helps districts reimagine curriculum adoption as an ongoing foundation for instructional improvement, not a one-time event. The cadre builds understanding of high-quality instructional materials (HQIM), facilitates collaborative learning, and supports teams in developing locally relevant criteria for selecting materials aligned with their goals for math teaching and learning. District teams receive customized support, participate in reflective classroom walks and virtual learning sessions, and engage in implementation planning that brings teachers and leaders together to strengthen instruction systemwide.
+	  
+Supporting Practical AI for Real K-12 Classrooms (SPARK) 
+	SPARK is an 18-month initiative designed to help Florida school districts use artificial intelligence in thoughtful, responsible, and practical ways. The initiative is led by Impact Florida in partnership with the University of Florida’s CSEveryone Center for Computer Science Education, with alignment to the Florida K-12 AI Education Task Force and support from partners including Microsoft, Google, and other key stakeholders across the state. Note: SPARK has recently launched and has just completed the district recruitment phase. 
+	  
+
+NAT HQIM/Policy & Advocacy 
+Not on website
+	Launched in 2026, this HQIM policy initiative supports Florida’s efforts to strengthen policies and systems that increase access to high-quality instructional materials (HQIM). In addition to continued work supporting districts through instructional materials learning and adoption efforts, the initiative focuses on three areas: (1) advising state leaders and the Florida Department of Education on instructional materials review, evaluation, and adoption processes; (2) researching and documenting policy, funding, procurement, and implementation barriers that limit HQIM adoption and effective use; and (3) engaging policymakers, education leaders, and advocacy partners with evidence-based recommendations that strengthen instructional materials systems and support high-quality math instruction statewide. This initiative aims to create the conditions for more informed instructional materials decisions and stronger learning experiences for students across Florida.
+	  
+EIR/Game-Based Learning
+Not on website  
+	Launched in 2024 through a five-year Education Innovation and Research (EIR) grant from the U.S. Department of Education, Game-Based Learning Platform to Enhance Student Science is a partnership among Impact Florida, Legends of Learning, and WestEd to improve and evaluate the use of game-based learning in 5th-grade science classrooms in Miami-Dade County Public Schools using Legends of Learning, a specific game-based learning product. Impact Florida leads district engagement, while Legends of Learning provides the software and WestEd leads the independent research program that includes usability and feasibility studies, a yearlong implementation study, and a large-scale randomized controlled trial to examine the impact of game-based learning on student engagement, opportunities to learn, and science achievement. Note: The project team is currently preparing to launch the impact RCT study in Fall 2026.
+	  
+
+
+Florida Materials Navigator 
+www.flmaterialsnavigator.org
+	Launching in July 2026, the Florida Materials Navigator will help district leaders make informed instructional materials decisions by providing practical, Florida-specific resources aligned to the state’s adoption process. The Navigator curates guidance, tools, templates, and learning opportunities that support districts in selecting and implementing high-quality instructional materials. Developed in partnership with state and national organizations, the Navigator combines evidence-based frameworks with local context to help adoption teams evaluate materials, plan for implementation, and learn from the experiences of districts across Florida. Note: The Florida Materials Navigator is currently under development. 
+	
+
+Hackweek Project Description and Deliverables 
+Using AI to Identify Patterns and Insights Across Impact Florida’s Professional Learning Initiatives
+Impact Florida’s Need
+As part of our work at Impact Florida, we generate regular (typically monthly) summaries and a variety of other artifacts (e.g., decks, workpapers, transcripts from virtual or in-person meetings, chart papers, etc.) for each project that synthesize progress, lessons learned, and insights from district engagement. These summaries and artifacts represent a rich but currently under-leveraged source of qualitative data about implementation, educator experience, and emerging trends across districts and programs.
+
+
+Your charge during the Impact Florida Hackweek is to develop a prototype AI/LLM-based tool that can analyze these monthly summaries and additional artifacts to identify patterns,
+themes, and insights across districts and initiatives and support our internal strategic learning and progress toward our outcome targets. The tool would enable cross-project synthesis that is currently time-intensive and largely manual.
+
+In addition to monthly summaries and additional artifacts, we also collect quantitative data through program surveys and website analytics. Ideally (if feasible), we would be interested in a model capable of analyzing both qualitative and quantitative data from several sources.
+What You’ll Do During Hackweek
+
+During Hackweek, you’ll work with Impact Florida to: 
+* Review and understand the structure and content of existing monthly summaries and related materials (and, if feasible, additional qualitative and quantitative data sources).
+* Define a clear approach for analyzing these documents/data sources using AI/ML techniques.
+* Develop a prototype tool or workflow that can ingest multiple summaries/data sources and extract key themes and patterns.
+* Explore approaches for structuring outputs in a way that is useful for organizational learning and decision-making.
+The scope is focused on developing a functional prototype and demonstrating feasibility, rather
+than building a fully production-ready system. In addition to monthly summaries, Impact
+Florida has a range of related artifacts and other quantitative data that are currently
+underutilized, and we would be open to discussing other potential approaches or project
+directions that could help the organization identify patterns and insights to inform strategic
+planning and organizational learning.
+________________
+Proposed Outcomes & Deliverables
+We are seeking a prototype tool or workflow that enables Impact Florida to more
+systematically extract and synthesize insights across our work.
+
+
+Desired outcomes include:
+
+
+* A working prototype (e.g., script, interface, or workflow) that can process multiple monthly summaries and additional artifacts (and, if feasible, additional qualitative and quantitative data sources) and identify recurring themes and patterns.
+* The ability to query the model with questions (e.g., “What challenges are most frequently emerging across districts?”) and receive synthesized responses grounded in the source materials.
+* Outputs that include not only identified themes but also contextual information such as frequency, timing (when themes emerge), and whether patterns are concentrated within specific districts or appear across multiple districts/programs.
+* Documentation of the approach, including how data are structured, how the model processes inputs, and how outputs are generated
+* A demonstration or example analysis using a subset of Impact Florida materials
+
+
+In addition, we would like to explore potential formats for short, strategic learning memos
+generated from the analysis. These would be concise (1–2 page) summaries based on strategic learning questions asked of the model, including relevant context, high-level themes, and key takeaways. The goal is to produce internal outputs that can be readily used by senior leadership to inform ongoing organizational learning and decision-making (and may inform future public-facing deliverables, following staff review).
+Example Verification Questions
+The verification questions below are intended as example benchmarks for assessing whether the prototype is functioning as intended. They are not meant to define the full scope of the model's capabilities. Ideally, the prototype should be designed to ingest and synthesize insights across the diverse data sources and artifacts provided, enabling users to explore a broad range of strategic learning, evaluation, and program improvement questions.
+To assess whether the AI prototype is operating as intended, we may query the model with questions such as:
+1. What participant experiences are most consistently valued across Impact Florida's programs, and which appear most connected to meaningful changes in educator practice, collaboration, or systems improvement?
+2. How have the most common challenges facing districts and educators changed over time across Impact Florida initiatives, and what do these patterns suggest about opportunities for future programming, support structures, and strategic investments?
+________________
+Additional Considerations & Areas for Exploration 
+Please include: Output Disclaimer
+All outputs generated by the prototype should include a clear reminder that they are derived from internal organizational data and should be treated as confidential. Include something such as the following (using red text if possible). 
+Disclaimer: This output is generated from internal data and should be treated as confidential; please review and remove any sensitive information before sharing externally.
+Ideal: Future Historical Data & Artifact Ingestion
+Ideally, the prototype would be designed with flexibility to accommodate additional historical information sources in the future. For this initial prototype, materials from several past initiatives (e.g., Opportunity Cadre, You+Lead, Focus Cadre, and others) were intentionally excluded. These materials may include structured datasets as well as unstructured artifacts such as reports, resources, participant submissions, program documentation, communications, and other records generated through prior programmatic efforts.
+The system architecture should support the future incorporation of these diverse information sources if the organization chooses to expand the model’s knowledge base. Fellows should consider how the prototype can be designed to efficiently ingest, organize, and leverage both structured and unstructured content while maintaining flexibility as new sources are added over time. If not feasible during Hackweek, understanding the technical feasibility and the level of effort that would be required to incorporate this into the system architecture would be helpful.  
+If feasibility is a concern: Potential Scope Narrowing
+As discussed during the project kickoff, if the team determines that the current scope is too broad for the available timeline, we recommend focusing on SWS and Focus K-3 programs. These initiatives have the most comprehensive collection of available data and artifacts, while also representing sufficiently different program models and participant experiences. As a result, they may provide a strong foundation for developing and testing an approach that could later be generalized to other Impact Florida programs. 
+If the team opts to go this route, please discuss with Jenn and share more information about the feasibility of and level of effort that would be needed to incorporate all data sources per the original proposal. 
+If time allows: Exploration of HubSpot-ChatGPT Web Analytics Data Integration
+Impact Florida collects substantial communications and engagement data through HubSpot, its CRM and marketing platform. Due to the volume of available web analytics data and HubSpot’s existing reporting and dashboarding capabilities, these data sources were not listed in our data sources table. Fellows are encouraged to explore whether HubSpot web analytics data can be integrated into the prototype in a meaningful and technically feasible way. (Note: Based on our initial research, there is a HubSpot-ChatGPT connector, but it seems to be designed to pull customer records rather than website analytics; additional investigation is needed). 
+Examples of available HubSpot web analytics data include: website traffic and page views; bounce rates; new versus returning visitors; form views and form submissions; resource downloads and content engagement; email open rates; email click-through rates; LinkedIn audience growth’ LinkedIn post impressions and engagement metrics. 
+Fellows are encouraged to assess whether an existing HubSpot web analytics integration is available and, if so, whether it can be easily incorporated to the prototype. If not, consider what level of effort would be required to incorporate this into the system architecture. 
+________________
+Important Information 
+
+Table 2 includes important details related to the working location for Hackweek (the 2026 ISEA Hackweek Google Drive Folder), data security and confidentiality, and contact information.  
+Table 3 includes a detailed list of relevant data sources for Hackweek (located in the Google Drive Data Sources Folder).
+Table 2. Important Information 
+Detail
+	Description
+	Working Location
+	2026 ISEA Hackweek Google Drive Folder 
+	Data Security and Confidentiality
+	Reminder: Per Section 4.1 of the Sponsor Agreement, all sources below are considered company confidential information. Access is provided as needed to complete the project. However, no information or derivatives of this information are allowed to be shared outside of Impact Florida without prior permission.
+Additional data security considerations are noted in Table 3. Program Data Sources, where relevant. If questions or concerns related to data security arise over the course of the Hackweek, please promptly notify Jenn and Trey.
+	Contact Information 
+	Project Supervisor: 
+Jenn Acosta, Sr. Director of Strategic Learning 
+jenn@impactfl.org; 863-812-5612
+
+Project Liaison: 
+Trey Csar, Chief Impact Officer  
+trey@impactfl.org; 415-215-4994
+	
+
+
+
+
+
+Table 3. Data Sources
+Data Source 
+	Type
+	Timing
+	Description
+	Confidentiality/
+Security Notes
+	Multiple Programs 
+	Gates GCITs and Mid-Year Reflections
+	Progress Reports, Mid-Year Reflections
+	2023-2026
+	Includes monthly updates to Gates using their Grantee Check-In Tool (GCIT) template for multiple Impact Florida programs (2023-2026). Specifically focuses on updates related to the Investing in Impact Florida Grant programs (MMC, Focus K-3, Teacher workforce, and SPARK [formerly referred to as AI Test Beds]). We also include updates related to SWS, which is part of another Gates grant (AI-generated based on SWS monthly check-in call notes). Note that templates shifted over the years. Mid-Year Reflections are based on questions of interest to Gates (2025-2026).  
+	Data Security and Confidentiality notes described in Table 2 apply to all data sources in this table (not some have additional detail). 
+	Grants
+	Grant Documents
+	2023-2029
+	Includes Grant documents for Investing in Impact Florida Grant (funds MMC, Focus K-3, Teacher Workforce, and SPARK [formerly referred to as AI Test Beds]); the NAT HQIM work (which includes the Policy Lab noted under Policy & Advocacy); the Florida Materials Navigator;  and SWS (note that the SWS grant also included the You+Lead program, which has ended). Also includes the narrative for the EIR/Game-Based Learning work (federally-funded by Ed). 
+	
+
+	Investing in Impact Florida Gates Results Tracker (Revised 08-29-25).xlsm 
+	Results Tracker
+	2025-
+	Gates results tracker for reporting progress on key outcomes for programs in the Investing in Impact Florida Grant. The tab titled “Results Tracker - Current” is the latest version of the results tracker. We will need to report updates across all outcomes in this tracker by the end of July 2026.  
+	
+
+	EIR/Game-Based Learning Results Tracker (Revised 03-13-25)
+	Results Tracker
+	2024-
+	Ed results tracker for reporting on EIR/Game-Based Learning goals and objectives. Includes targets and actuals for each year, explanation of progress for performance measure data, and other notes.
+	
+
+	Solving with Students
+	
+
+	
+
+	
+
+	
+
+	SWS_Monthly Funder Check-In Call Notes
+	Call Notes
+	February 2024 - June 2026
+	Running call notes with funding program officer describing progress on grant outcomes; speed bumps or barriers; budget update questions or concerns; and any items to discuss during check-in with program officer. 
+	
+
+
+
+	SWS_Historical Account of Cadre
+	Artifact 
+	2023-2024; 2024-2025; 2025-2026 
+	Provides a detailed historical account of the SWS cadre, including cadre growth and demographics; defining the optimal model; learnings on scale and cost and conditions and member experience; looking ahead to 2025-26; and knowledge sharing and dissemination of cadre learnings. 
+	
+
+	0_Applications, Intake Forms, Pre-Surveys
+	Survey Data; Internal Trackers 
+	2022-2023; 2023-2024;
+2024-2025;
+2025-2026 
+	Includes de-identified spreadsheets organized by year folders. Spreadsheets include survey data from cadre applications; school demographics data; notes from coaching calls; coaching and program feedback; and other cadre learnings and reflections. The main folder includes a master participant database tracking cadre participation by year.  
+	Include only de-identified materials in ChatGPT. I went through files manually and removed teacher full names and contact information. 
+	1_Survey Reflections
+	Survey Data; Open-ended reflections 
+	2022-2023; 2023-2024;
+2024-2025;
+2025-2026 
+	Includes de-identified reflection form data: teacher reflection forms across five cycles (2022-23); open-ended reflection data (celebration; surprise; learning condition; advice); survey question summaries (2023-2024) and data files (2024-2025, 2025-2026); and June 2025 convening exit ticket survey data (Days 1 and 2). 
+	Same as above.
+	2_EOY Surveys
+	Survey Data; Data Summaries 
+	2022-2023; 
+2024-2025; 2025-2026
+	Includes end of year survey data files and data summary PDFs. The 2022 post-survey year 1 instrument is also included. 
+	Same as above.
+	3_Evaluation Reports, Data Slides 
+	Data Reports; Data Decks; Data Visualizations
+	2022;
+2022-2023;
+2023-2024;
+2024-2025 
+	Includes evaluation and impact reports across SWS cadre years; graphs/visualizations created by WestEd showing changes in PERTS Elevate data by time and cohort; and slide decks (2022; 2024-25) summarizing cadre data/learnings. 
+	
+
+	4_Teacher Podcast Reflection Transcripts
+	Qualitative Data
+	2025
+	Includes de-identified transcripts from conversations with teachers about their reflections on the SWS What Counts Podcast and what they might try in their own classroom. 
+	Include only de-identified materials in ChatGPT. These transcripts were de-identified. 
+	!_Programming
+	Decks
+	2024-2025
+	Includes a deck from a 2024 SWS convening (co-creating a vision with alumni); another providing an overview of the SWS cadre (2024-25); and the most recent June 2026 Convening. 
+	
+
+	Focus K-3
+	Focus K-3 Math Cadre_Monthly Progress Summaries_June 2025-April 2026.docx
+	Progress Reports
+	June 2025 - April 2026
+	Monthly progress reports to funder summarizing updates related to cadre activities, insights/learnings, and new updates. 
+	
+
+	0_District Intake Surveys
+	Qualitative Data
+	September 2025
+	Includes four district intake surveys (qualitative) that provide a baseline of district systems that support math instruction, viewed through the lens of the Five Conditions that Support Great Teaching.
+	
+
+	1_Convening Data_June 2025-February 2026
+	Qualitative Data; Survey Data 
+	June 2025 - February 2026
+	Includes survey data from districts participating in convenings (June 2025, October 2025, December 2025, and February 2026). Also includes cadre planning team huddle tool reflections for December 2025 and February 2026. 
+	
+
+	2_Site Visit Data_August 2025-March 2026
+	Survey Data; Meeting Notes
+	August 2025-March 2026
+	Includes site visit survey feedback data and qualitative meeting notes from five site visits conducted with four districts between August and March 2026. Meeting notes were written up by the cadre leads and captured site visit observations with implications for People, Policy, Practice, and Programming (then used to draft monthly progress summaries). 
+	
+
+	3_Fall 2025 District Data
+	Data Reports; Qualitative Reports; Survey Data; Assessment Data 
+	FAST PM3 Data: 2024-25; District Data Collection: Fall 2025 
+	Includes folders with (1) 2024-25 District Strengths Assessments  for K-3 math (from FAST PM3) and achievement scatter plot data for each district; (2) Fall 2025 focus group and interview finding reports; (3) Fall 2025 Network and Teacher survey data; and (4) Fall 2025 district-specific data reports. The main folder includes a presentation of Fall 2025 cadre-wide data and data files from districts on the 5 Conditions measure and student work reviews and instructional walkthroughs conducted by the team. 
+	Note: Achievement scatter plot data based on all schools in a district. For our purposes, we should only be basing the data on participating/pilot schools in each district (see list of participating districts and schools in !_Programming folder). 
+	4_Spring 2026 District Data
+	Survey Data
+	April 2026
+	Includes  folders with (1) Spring 2026 Network and Teacher survey data and AI-generated summaries on teacher and leader use of AI and perspectives on instructional materials (2) Spring 2026 focus group finding report and implementation pattern summary; (3) district implementation story briefs; and (4) Spring 2026 district-specific data reports (text only). The main folder includes data from districts on the 5 Conditions measure (April 2026 administration). 
+	
+
+	!_Programming
+	Decks, lists, and rosters 
+	
+
+	Includes the list of participating districts and schools, de-identified roster with attendance data, and various slide decks (kickoff, convenings 1-4; district theories of action). 
+	
+
+	Math Materials
+	0_MMC Progress Summaries 
+	Progress Reports
+	November 2025-March 2026
+	Monthly progress reports to funder summarizing key events, challenges and considerations, learnings and insights, and next steps. 
+	
+
+	1_MMC Virtual Call Series District Summaries 
+	Qualitative Data 
+	April - May 2026
+	MMC Phase 2 virtual series programming session descriptions (Part 1 - Screening Criteria; Part 2 - Adoption Review Committees; Part 3 - Evaluation Tools and Process) and synthesis of district planning activities across sessions (by district). 
+	
+
+	2_MMC Learning Walk Site Visit Summaries 
+	Qualitative Data 
+	November 2025 - January 2026 
+	Site visit learning walk summaries, including district strengths and opportunities for growth and walkthrough tool synthesis across key domains by district. Also includes a cross-district summary.  
+	
+
+	3_MMC Listening Session Summaries 
+	Qualitative Data
+	February 2026-
+	Synthesis of evidence gathered from listening sessions and surveys conducted and facilitated by district leaders, coaches, and administrators (only available for Lake and Brevard counties currently).
+	
+
+	4_MMC Event Survey Data
+	Survey Data
+	October 2025, February 2026, March 2026
+	Includes survey data from Convenings 1 and 2 and the Phase 1 Virtual Calls Series. 
+	
+
+	5_MMC Network Surveys
+	Survey Data
+	October 2025. March 2026
+	Includes Fall and Spring 2026 MMC Network Survey Data.
+	
+
+	!_Programming 
+	Decks, planning documents, brief 
+	July 2025 - May 2026 
+	Includes onboarding, funder, convening, and virtual call decks; learning walk site visit plan; MMC phase by phase approach; and a brief focusing on the shifting landscape of instructional materials adoption (Nov 2025). 
+	
+
+	Teacher Workforce
+	TW Ongoing Funder Check-In Notes
+	Call Notes
+	2023-2026
+	Ongoing call notes and progress summaries between Ryen (Gates Program Officer) and Jessica (TW Program Lead) from 2023 to present. 
+	
+
+	0_FLDOE
+	State Data and Related Documents; Data Report
+	2022-2023; 2024-2025
+	Includes various FLDOE datasets and supporting documents for our work with districts to develop a landscape of recruitment and retention in Florida, particularly with a math-focused lens. A data report for 2024-25 includes data about certifications areas representing the greatest need for teachers statewide. 
+	
+
+	1_District TW Baseline Data
+	Administrative Data 
+	2021-2025
+	Includes baseline teacher workforce data from SY 2021-2022; 2022-2023; 2023-2024; and 2024-2025 for Lee, Pasco, Osceola, and St. Lucie Counties (note that not all have data across every SY). Teacher retention data and attrition rates are provided for Polk County (2023-2025 and 2021-2025, respectively). Note that there are variations in how some districts define attrition/retention (described in the TW_Retention Metric Methods by District document). 
+	
+
+	2_District Educator Listening Session Data
+	Qualitative Data 
+	2024; 2025 
+	Includes educator listening session summaries for Lake, Pasco, Polk, and St. Lucie Counties (2024) and themes for Lee, Osceola, and Polk Counties (2025). 
+	
+
+	3_District Artifacts
+	Decks and Data Reports
+	2021-2023; 2024-2025; 2026
+	Includes various district artifacts for Lake, Lee, and St. Lucie Counties. Artifacts include a data analysis report (Lake), decks describing teacher retention efforts (Lee), and recruitment and retention plans and data reports (St. Lucie). 
+	
+
+	4_Convening Feedback Surveys
+	Survey Data
+	2024-2025
+	Includes feedback survey responses from various TW convenings. 
+	
+
+	5_Site Visit Notes
+	Field Notes
+	2025
+	Includes field notes from site visits to Lee, Osceola, and Polk Counties in summer of 2025. 
+	
+
+	6_Survey Data and Decks 
+	Survey Data; Decks and Data Reports
+	2025
+	Includes a 2025 data report from the Network Survey’s Teacher Workforce-related questions; a deck with updates to Gates containing data; a cross-district data deck; and results and documentation from an outcomes survey with team leads from Polk, Pasco, and St. Lucie (returning districts from the first TW cohort).
+	
+
+	!_Programming
+	Decks; Artifacts
+	2023-2026 
+	Includes decks and plans from various convenings (2024-2026); overview artifacts describing the program and its components (2023-2026); site visit plans and decks (2025-2026); and a sample data plan (main folder).  
+	
+
+	EIR/Game-Based Learning
+	EIR/Game-Based Learning_Running Biweekly Call Notes.docx
+	Call Notes
+	December 2023-May 2026
+	Includes running call notes from biweekly meetings between Impact Florida, Legends of Learning, and WestEd. 
+	
+
+	1_Annual Performance Reports to Ed
+	Progress Reports
+	2024; 2025
+	Includes  performance reports submitted to Ed. Reports include progress on project activities vs. original goals; challenges and revisions to project activities; progress and any preliminary findings related to the independent evaluation (conducted by WestEd); sustainability and scaling planning and efforts; performance measures data by goals (see results tracker under Multiple Programs folder); budget reporting information. 
+
+
+Report 1 attachments include findings and recommendations from teachers and students; the legends of learning usability study report and findings deck; IRB documents; and other artifacts.  
+	
+
+	2_WestEd Reports and Analyses
+	Data Reports
+	2025
+	Includes published WestEd reports/presentations – including the feasibility study executive summary and report, and a deck highlighting usability study key findings and recommendations. 
+	
+
+	3_Evaluation Plan
+	Artifact
+	2026
+	Evaluation plan submitted to Ed with study details, abstract, description of the study, research questions, study design, sample characteristics, and analysis plan. 
+	
+
+	SPARK
+	Weekly SPARK Meeting Notes
+	Call Notes
+	April - May 2026
+	Includes running call notes from April and May internal planning call meetings.
+	
+
+	!_SPARK Concept and District Overview
+	Artifacts
+	Spring 2026
+	Includes a SPARK program concept paper from January 2026 and a district-facing SPARK overview document describing program components. 
+	
+
+	0_SPARK Planning Documents
+	Artifacts
+	Spring 2026
+	Includes SPARK planning documents under development, including the SPARK kickoff/district onboarding deck, district onboarding process, SPARK implementation plan (current version), district support framework, and a draft district readiness & needs assessment. 
+	
+
+	NAT HQIM/Policy & Advocacy 
+	0_NAT HQIM Planning Documents
+	Artifacts
+	2026
+	Includes a plan for a landscape scan and Practice-to-Policy Lab (activities part of the NAT HQIM grant led by our Sr. Director of Policy & Advocacy). 
+	
+
+	1_Policy Impact
+	Artifacts
+	2024, 2026
+	Includes a 2026 policy impact brief showcasing district policy impact following work with Impact Florida’s MMC and a description from Impact Florida’s website of a 2024 policy impact related to modifying the Florida textbook adoption timeline. 
+	
+
+	2_Policy Notes
+	Call Notes, Field Notes
+	2024, 2025, 2026
+	Includes notes about Florida policy news in 2024 and from the 2025 legislative session and updates from lobbyist (Mayernick) calls, including key words to track, actions taken, and bill summaries. Also includes conceptual notes from the field compiled by our Sr. Director of Policy & Advocacy.

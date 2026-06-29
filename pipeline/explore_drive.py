@@ -19,10 +19,10 @@ from dotenv import load_dotenv
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
-load_dotenv()
-
+PROJECT_ROOT = Path(__file__).parent.parent
+load_dotenv(PROJECT_ROOT / "secrets" / ".env")
 SCOPES = ["https://www.googleapis.com/auth/drive.readonly"]
-OUTPUT_FILE = Path(__file__).parent / "drive_structure.txt"
+OUTPUT_FILE = PROJECT_ROOT / "data" / "drive_structure.txt"
 
 MIME_LABELS = {
     "application/vnd.google-apps.folder": "Google Folder",
@@ -55,7 +55,7 @@ def tee(f, *args, **kwargs):
 
 
 def find_key_file() -> str:
-    secrets_dir = Path(__file__).parent / "secrets"
+    secrets_dir = PROJECT_ROOT / "secrets"
     matches = list(secrets_dir.glob("*.json"))
     if not matches:
         raise FileNotFoundError(f"No JSON key file found in {secrets_dir}")

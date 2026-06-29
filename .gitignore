@@ -1,26 +1,84 @@
-﻿# Secrets and credentials
-.env
-secrets/
-
-# Downloaded documents (large, regenerable)
-data/
-
-# Generated pipeline artifacts
-metadata.json
-documents.parquet
-themes_raw.parquet
-themes.parquet
-theme_map.json
-
-# Vector store (regenerable)
-chroma_db/
-
 # Python
 __pycache__/
-*.pyc
-*.pyo
-.venv/
-venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Logs
+# Testing / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.spyderproject
+.spyproject
+.ropeproject
+.mypy_cache/
+
+# Misc
 *.log
+*.mo
+*.pot
+local_settings.py
+.ipynb_checkpoints
+.python-version
+celerybeat-schedule
+*.sage.py
+/site
+docs/_build/
+target/
+
+# -----------------------------------------------------------------------
+# Impact Florida RAG pipeline -- secrets and credentials (never commit)
+# -----------------------------------------------------------------------
+secrets/
+
+# -----------------------------------------------------------------------
+# Generated artifacts -- may contain document content or Drive metadata
+# All generated outputs now live under data/
+# -----------------------------------------------------------------------
+
+# All pipeline outputs (downloaded docs, parquets, vector store, etc.)
+data/
+
+# -----------------------------------------------------------------------
+# Python virtual environments
+# -----------------------------------------------------------------------
+venv*/

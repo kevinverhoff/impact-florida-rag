@@ -248,7 +248,7 @@ def main(rebuild: bool = False) -> None:
     parser.add_argument("--rebuild", action="store_true",
                         help="Drop and rebuild the collection from scratch")
     args, _ = parser.parse_known_args()
-    do_rebuild = rebuild or do_rebuild
+    do_rebuild = rebuild or args.rebuild
 
     if not DOCUMENTS_PATH.exists():
         raise FileNotFoundError("documents.parquet not found -- run ingest.py first")

@@ -25,10 +25,12 @@ import sys
 from pathlib import Path
 
 import pandas as pd
+from dotenv import load_dotenv
 
 sys.path.insert(0, str(Path(__file__).parent))
 
 PROJECT_ROOT   = Path(__file__).parent.parent
+load_dotenv(PROJECT_ROOT / "secrets" / ".env")
 DATA_DIR       = PROJECT_ROOT / "data" / "raw"
 DOCUMENTS_PATH = PROJECT_ROOT / "data" / "documents.parquet"
 METADATA_PATH  = PROJECT_ROOT / "data" / "metadata.json"

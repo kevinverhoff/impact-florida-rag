@@ -17,15 +17,27 @@ echo  Impact Florida RAG Tool — Launching App
 echo ============================================================
 echo.
 
-:: ---- Check that Python is available ----
+:: ---- Find a way to run Streamlit: try "python", then "python3", ----
+:: ---- then fall back to a bare "streamlit" command on PATH.       ----
+set "PY_CMD="
 python --version >nul 2>&1
-if errorlevel 1 (
-    echo ERROR: Python was not found.
-    echo Please install Python from https://www.python.org/downloads/
-    echo Make sure to check "Add Python to PATH" during installation.
-    echo.
-    pause
-    exit /b 1
+if not errorlevel 1 set "PY_CMD=python"
+
+if not defined PY_CMD (
+    python3 --version >nul 2>&1
+    if not errorlevel 1 set "PY_CMD=python3"
+)
+
+if not defined PY_CMD (
+    streamlit --version >nul 2>&1
+    if errorlevel 1 (
+        echo ERROR: Could not find "python", "python3", or "streamlit".
+        echo Please install Python from https://www.python.org/downloads/
+        echo Make sure to check "Add Python to PATH" during installation.
+        echo.
+        pause
+        exit /b 1
+    )
 )
 
 :: ---- Move to the project root (two levels up from setup\For Windows) ----
@@ -63,7 +75,11 @@ echo To stop the app, press Ctrl+C in this window.
 echo ============================================================
 echo.
 
-python -m streamlit run app/app.py
+if defined PY_CMD (
+    %PY_CMD% -m streamlit run app/app.py
+) else (
+    streamlit run app/app.py
+)
 
 echo.
 echo App stopped.

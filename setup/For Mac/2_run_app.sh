@@ -16,13 +16,15 @@ echo " Impact Florida RAG Tool — Launching App"
 echo "============================================================"
 echo ""
 
-# ---- Check that Python is available ----
+# ---- Find a way to run Streamlit: try "python3", then "python", ----
+# ---- then fall back to a bare "streamlit" command on PATH.      ----
+PYTHON=""
 if command -v python3 >/dev/null 2>&1; then
     PYTHON=python3
 elif command -v python >/dev/null 2>&1; then
     PYTHON=python
-else
-    echo "ERROR: Python was not found."
+elif ! command -v streamlit >/dev/null 2>&1; then
+    echo "ERROR: Could not find \"python3\", \"python\", or \"streamlit\"."
     echo "Please install Python from https://www.python.org/downloads/"
     echo "or via Homebrew: brew install python"
     echo ""
@@ -66,7 +68,11 @@ echo "To stop the app, press Ctrl+C in this window."
 echo "============================================================"
 echo ""
 
-"$PYTHON" -m streamlit run app/app.py
+if [ -n "$PYTHON" ]; then
+    "$PYTHON" -m streamlit run app/app.py
+else
+    streamlit run app/app.py
+fi
 
 echo ""
 echo "App stopped."

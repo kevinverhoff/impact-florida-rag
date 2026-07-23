@@ -9,6 +9,11 @@ Staff ask plain-language questions and get cited, grounded answers drawn directl
 from the document library. Nothing is made up; every answer traces back to a
 specific document.
 
+> **Just need to install and run the app?** See
+> [setup/SETUP_GUIDE.md](setup/SETUP_GUIDE.md) for a step-by-step walkthrough
+> (Windows and Mac) with no command-line experience assumed. The **Setup**
+> section below is the condensed, developer-facing version.
+
 ---
 
 ## What We Are Building
@@ -54,6 +59,10 @@ text extraction to build the themes layer. Steps 7-9 are what staff interact wit
 ---
 
 ## Setup
+
+> Prefer a guided, non-technical walkthrough? Use
+> [setup/SETUP_GUIDE.md](setup/SETUP_GUIDE.md) instead — it covers the same
+> steps below with double-click scripts for both Windows and Mac.
 
 ### Step 1 — Clone and install
 
